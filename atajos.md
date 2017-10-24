@@ -38,3 +38,7 @@ EN NOTACIÓN DE BACKUS-NAUR
 - CTRL MAYUS v: PEGAR.
 - CTRL + l: BORRAR PANTALLA. 
 - CTRL + d :FINAL DEL FICHERO.
+- man: enseña manual.
+- 1 herramientas de la terminal.
+- 2 nucleo del sistema operativo.
+- 3 desarrollo de apps.
