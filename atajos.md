@@ -39,6 +39,6 @@ EN NOTACIÓN DE BACKUS-NAUR
 - CTRL + l: BORRAR PANTALLA. 
 - CTRL + d :FINAL DEL FICHERO.
 - man: enseña manual.
-- 1 herramientas de la terminal.
-- 2 nucleo del sistema operativo.
-- 3 desarrollo de apps.
+- 1: herramientas de la terminal.
+- 2: nucleo del sistema operativo.
+- 3: desarrollo de apps.

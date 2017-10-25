@@ -8,33 +8,26 @@ SIEMPRE ALERTA ESTÁS
 ```
 
 - ls: list files. Muestra el directorio.
-
 - cd : change directory. Cambiar directorio.
-
 - mkdir: maker directory. Crear un directorio.
-
 - rm: remove. Quitar un archivo.
-
 - rmdir: remove directory (solo si esta vacío).
-
 - rm -rf: (**r**ecursivo **f**orce).
-
-- mv
-
+- mv: cambiar o mover el nombre
 - cat: concatenar archivos es decir mostrar su contenido.
 
 
 - git: 
 
-  	clone:
+  	clone: clonar 
+    
+    commit: lo trae
 
-  	commit:
+  	status: muestra el estado
 
-  	status:
+  	addcd ..:vigilar nuevos ficheros
 
-  	add(vigilar nuevos ficheros):
-
-  	git add -u (removed deleted files):
+  	git add -u :removed deleted files
 
   	pull:actualizar.
 
@@ -44,35 +37,25 @@ SIEMPRE ALERTA ESTÁS
 
     ##COMANDOS QUE UNEN
 
-  	cat :concatenar archivos en la terminal
-
-  	paste:unir en vertical
-
-  	join:cmobinaciones
+  	- cat :concatenar archivos en la terminal
+    - paste:unir en vertical
+    - join:cmobinaciones
 
   	##COMANDOS QUE DIVIDEN
 
-  	tail -2: archivo
-
-  	tail-f (deja el fichero abierto)
-
-  	head: cerrar el fichero cat
-
-  	cut:corta vertical cut -d" " -f1
-
-  	split: divide horizontal
+  	-tail -2: archivo
+    - tail-f (deja el fichero abierto)
+    - head: cerrar el fichero cat
+    - cut:corta vertical cut -d" " -f1
+    - split: divide horizontal
 
     ## COMANDOS QUE FILTRAN
+    - grep : para filtrar.
+    - ed : editor sin ventanas.
+    - sed : lo mismo
+    - vi : (mejorado)
 
-    -grep : para filtrar.
-
-    -ed : editor sin ventanas.
-    
-    -sed : lo mismo
-
-    -vi : (mejorado)
-
-    ## otras
+    ## OTRAS
     - wget descarga de internet.
     - tr transalate.
     - | es una tuberia.
@@ -84,6 +67,15 @@ SIEMPRE ALERTA ESTÁS
     - cal: calendario.
     - bc: calculadora.
     - touch: crear un fichero.
+    - rsync: hace copia de seguridad.
+    - mysqldump: volcado de la base de datos.
+    - date: Muestra la fecha (backup rotativo).
+    - history: muestra el historial.
+    - fg <n> : trae un proceso a primer plano.
+    - jobs: lista de los procesos detenidos
+    - ps aux : vemos los procesos.
+    - kill <pid>: matamos el proceso
+    - kill -9 <pid>: matar el proceso
 
     ## PARA BUSCAR
     -find : Busca ficheros.
