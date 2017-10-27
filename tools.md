@@ -72,10 +72,12 @@ SIEMPRE ALERTA ESTÁS
     - date: Muestra la fecha (backup rotativo).
     - history: muestra el historial.
     - fg <n> : trae un proceso a primer plano.
-    - jobs: lista de los procesos detenidos
+    - jobs: lista de los procesos detenidos.
     - ps aux : vemos los procesos.
-    - kill <pid>: matamos el proceso
-    - kill -9 <pid>: matar el proceso
+    - kill <pid>: matamos el proceso.
+    - kill -9 <pid>: matar el proceso.
+    - tar [c,x]: comprimir y descomprimir.
+    - unzip: descomprimir.
 
     ## PARA BUSCAR
     -find : Busca ficheros.
