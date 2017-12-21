@@ -77,7 +77,7 @@ SIEMPRE ALERTA ESTÁS
     - kill <pid>: matamos el proceso.
     - kill -9 <pid>: matar el proceso.
     - tar [c,x]: comprimir y descomprimir.
-    - unzip: descomprimir.
+    - unzip: descomprim
 
     ## PARA BUSCAR
     -find : Busca ficheros.
