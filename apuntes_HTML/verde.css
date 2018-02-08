@@ -1,0 +1,11 @@
+body{
+	background: repeating-radial-gradient(red, yellow 10%, purple 15%);
+}
+p{
+	font-size: 25pt;
+	color: green;
+	font-family: calibri;
+	background-color: yellow;
+	border: solid black 2pt;
+	border-radius: 20px;
+}
