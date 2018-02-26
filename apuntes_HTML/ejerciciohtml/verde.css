@@ -1,11 +1,13 @@
 body{
-	background: lightblue;
+	background: blue;
 }
 p{
 	font-size: 25pt;
 	color: green;
 	font-family: calibri;
-	background-color: yellow;
-	border: solid black 2pt;
-	border-radius: 20px;
+}
+
+img{
+width:512px;
+height:512px;
 }
