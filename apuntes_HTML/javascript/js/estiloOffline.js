@@ -1,4 +1,4 @@
-alert("JavaScript Offline");
+alert("JavaScript Offline");//
 function EscribeHola(){
 	// body...
 	alert("HOLA");
