@@ -18,4 +18,11 @@ function CambiarTexto() {
 	"Tipo de datos: String" + "<br>" +
 	"El precio es " + precio + "<br>" +
 	"El doble del precio es " + precio + "<br>";
+
+	precio = true;
+	miParrafo.innerHTML += 
+	"Tipo de datos: Boolean" + "<br>" +
+	"El precio es " + precio + "<br>" +
+	"El doble del precio es " + precio + "<br>";
+
 }
