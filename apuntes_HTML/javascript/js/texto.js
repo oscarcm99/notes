@@ -23,6 +23,6 @@ function CambiarTexto() {
 	miParrafo.innerHTML += 
 	"Tipo de datos: Boolean" + "<br>" +
 	"El precio es " + precio + "<br>" +
-	"El doble del precio es " + precio + "<br>";
+	"El doble del precio es " + (precio*2) + "<br>";
 
 }
