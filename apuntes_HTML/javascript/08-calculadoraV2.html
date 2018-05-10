@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Calculadora Version 1</title>
+	<title>Calculadora Version 2</title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src="js/calculadora.js"></script>
+	<script type="text/javascript" src="js/calculator.js"></script>
 	<style type="text/css">
 	 p{
 	 	font-size: 40pt;
 	 	font-family: calibri;
 	 	color: olive;
-	 }
-	 	s{
 	 }
 	</style>
 </head>
@@ -27,10 +25,10 @@ Operando 2:
 <input type="number" id="Operando2">
 </p>
 <p>
-	<button onclick="Sumar();">+</button>
-	<button onclick="Restar();">-</button>
-	<button onclick="Multiplicar();">*</button>
-	<button onclick="Dividir();">/</button>
+	<button onclick="RealizarOperacion('+');">+</button>
+	<button onclick="RealizarOperacion('-');">-</button>
+	<button onclick="RealizarOperacion('*');">*</button>
+	<button onclick="RealizarOperacion('/');">/</button>
 </p>
 <p id="Resultado">
 	Resultado: 
