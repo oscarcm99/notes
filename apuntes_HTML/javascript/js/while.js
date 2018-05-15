@@ -2,9 +2,15 @@ function EscribirNumero() {
 	// body...
 	var campoResultado;
 	var numero;
-	var contador;
+	var contador = 1;
 
-	campoResultado = parseInt(document.getElementById('resultado'));
-	numero = parseInt(document.getElementById('numero'));
-	contador = 0;
+	
+	numero = parseInt(document.getElementById('numero').value);
+	
+    campoResultado =  parseInt(document.getElementById('resultado'));
+    
+	do{
+		campoResultado.innerHTML += " " +contador;
+		contador++;
+	}while(contador<=numero);
 }
