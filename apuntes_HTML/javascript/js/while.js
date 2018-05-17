@@ -6,8 +6,8 @@ function EscribirNumero() {
 
 	
 	numero = parseInt(document.getElementById('numero').value);
-	
     campoResultado =  document.getElementById('resultado');
+	
     contador = 1;
     while(contador<=numero){
     	campoResultado.innerHTML += " " +contador;
