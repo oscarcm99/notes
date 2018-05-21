@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agenda contactos</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/agenda.js"></script>
+</head>
+<body>
+<p>	
+	Nombre: <input type="text" id="Nombre">  
+	Telefono: <input type="text" id="telefono"> 
+	Direccion: <input type="text" id="direccion">
+	<button onclick="AñadirContacto();">Añadir contacto</button>
+</p>
+<p>
+	Nombre del contacto que queremos modificar: <input type="text" name="nomcamb">
+	Nombre a modificar: <input type="text" id="nommod">
+	Telefono a modificar: <input type="text" name="telmod">
+	Direccion a modificar: <input type="text" name="dirmod">
+	<button onclick="ModificarContacto();">Modificar contacto</button>
+</p>
+<p>
+	Nombre a buscar: <input type="text" id="buscado">
+	<button onclick="BuscarContacto();">Buscar contacto</button>
+</p>
+<p>
+	Nombre del contacto que vamos a borrar: <input type="text" id="borrado">
+	<button onclick="BorrarContacto();">Borrar contacto</button>
+</p>
+</body>
+</html>
