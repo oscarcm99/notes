@@ -4,15 +4,6 @@ class  Contacto{
 		this.telefono = telefono;
 		this.direccion = direccion;
 	}
-	cogerNombre(nom){
-		this.nombre = nom;
-	}
-	cogerTelefono(tel){
-		this.telefono = tel;
-	}
-	cogerDireccion(dir){
-		this.direccion = dir;
-	}
 	cambiarNombre(nuevonom){
 		this.nombre = nuevonom;
 	}
@@ -25,31 +16,26 @@ class  Contacto{
 	EscribirN(){
     	var rn;
     	rn = document.getElementById('resultadoañadido');
-    	rn.innerHTML = "nombre: " +this.nombre + "<br>" +
+    	rn.innerHTML += "nombre: " +this.nombre + "<br>" +
     					"telefono: " +this.direccion + "<br>" +
     					"direccion: " +this.telefono + "<br>";
 	}
 }
-var miTabla = new Array(5),vn;
+var miTabla = new Array(5),vn, vd, vt;
 function AñadirContacto() {
 	// body...
-	var  vd, vt;
-	miTabla[0] = new Contacto(vn, vd, vt);
-	miTabla[1] = new Contacto(vn, vd, vt);
-	miTabla[2] = new Contacto(vn, vd, vt);
-	miTabla[3] = new Contacto(vn, vd, vt);
-	miTabla[4] = new Contacto(vn, vd, vt);
 	vn = document.getElementById('nombre').value;
 	vt = document.getElementById('telefono').value;
 	vd = document.getElementById('direccion').value;
+	
 	for(var i = 0; i<miTabla.length; i++){
-		miTabla[i].cogerNombre(vn);
-		miTabla[i].cogerTelefono(vt);
-		miTabla[i].cogerDireccion(vd);
+	miTabla[i] = new Contacto(vn, vd, vt);		
 	}
-	for(var i = 0; i<miTabla.length; i++){
-		miTabla[0].EscribirN();
+		for(var i = 0; i<miTabla.length; i++){
+		miTabla[i].EscribirN();
 	}
+
+	
 	
 	
 	
@@ -68,5 +54,9 @@ for (var i = 0; i <miTabla.length; i++)
 	}
 }
 function BuscarContacto() {
-	
+	var nombus;
+	nombus =  document.getElementById('buscado');
+	if(nombus == vn)
+		
+
 }
